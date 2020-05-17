@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS articuloP;
+
+CREATE TABLE articuloP(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    precio DOUBLE NOT NULL,
+    descripcion VARCHAR(250) NOT NULL
+);
+
